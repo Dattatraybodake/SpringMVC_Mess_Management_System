@@ -1,0 +1,204 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*
+{
+	marging: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body
+{
+	  font-family: "Nunito Sans", sans-serif;
+}
+.container-fluid
+{
+margin-top:60px;
+background-color: white";
+}
+.nav-link,.navbar-brand
+{
+  font-family: "Nunito Sans", sans-serif;
+  font-size:  1.7vw;
+}
+.card-title
+{
+	  font-family: "Nunito Sans", sans-serif;
+}
+
+.card-text
+{
+	  font-family: "Nunito Sans", sans-serif;
+}
+
+
+/* Apply hover effect on box*/
+.box:hover
+{
+	border: 1px solid black;
+	box-shadow: 0 0 10px 3px blue; /*Apply shadow effect on boxes in service*/
+	transform: scale(1.02);
+  	transition: all 0.3s ease-in-out;
+}
+.text-muted
+{
+		  font-family: "Nunito Sans", sans-serif;
+}
+#order-now
+{
+	background-image: linear-gradient(to right, #780206  51%, #061161  100%);
+	animation-name: anni;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction:alternate;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    position: relative;
+}
+
+@keyframes anni {
+  0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        left: 50px;
+        top: 0px;
+        background-color: red;
+    }
+
+    50% {
+        left: 50px;
+        top: 0px;
+        background-color: green;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        background-color: sky;
+    }
+}
+ 
+#order {
+	background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%)
+}
+
+#order {
+	 margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            border:none;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+  			font-family: "Nunito Sans", sans-serif;
+}
+
+#order:hover {
+	background-position: right center;
+	color: #fff;
+	text-decoration: none;
+}
+
+#submit {
+	background-image: linear-gradient(to right, #00c6ff 0%, #0072ff 51%, #00c6ff 100%);
+	font-family: "Nunito Sans", sans-serif;
+
+}
+
+#submit {
+	margin: 10px;
+	padding: 15px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	display: block;
+	font-family: "Nunito Sans", sans-serif;
+	
+}
+
+#submit:hover {
+	background-position: right center;
+	/* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
+#sign
+{
+	background-color:green;
+	border:none;
+	color: white;
+}
+
+#reset {
+	background-color: red;
+	border:none;
+	color: white;
+}
+
+.footer {
+	border-radius: 1%;
+	color: #240b36; /* Apply 15% border radius */
+	/* background-image: linear-gradient(#f5af19); */ 
+}
+
+h1 {
+	color: white;
+	  font-family: "Nunito Sans", sans-serif;
+	
+}
+h1, h2, h3, h4, h5, h6
+{
+		  font-family: "Nunito Sans", sans-serif;
+}
+
+.controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.controls button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
+
+/* @media only screen and (max-width: 600px)  */
+@media (max-width: 600px)
+{
+    .owl-carousel .item {
+        font-size: 20px;
+        padding: 10px 5px;
+    }
+
+    .controls button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+<!--About Section-->
+#about-section
+{
+	margin-top:100px;
+}
