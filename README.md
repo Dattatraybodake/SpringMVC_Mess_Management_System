@@ -1,6 +1,6 @@
 <h1>🍽️ Mess Management System</h1>
 
-<p><strong>Online Live Project:</strong> <a href="http://mealndserv.in" target="_blank">http://mealndserv.in</a></p>
+<p><strong>Online Live Project:</strong> <a href="[http://mealndserv.i](https://mealndserv.in/)n" target="_blank">http://mealndserv.in</a></p>
 
 <hr>
 
@@ -119,20 +119,21 @@ To digitize and streamline the operations of a hostel or institutional mess by m
 <ol>
   <li>Open Eclipse EE IDE</li>
   <li>
-    File > Import > Git > Projects from Git > Clone URI > Use:
+    File <strong>Next step:</strong> Import <strong>Next step:</strong> Git <strong>Next step:</strong> Projects from Git <strong>Next step:</strong> Clone URI <strong>Next step:</strong> Use:
     <br>
     <code>https://github.com/Dattatraybodake/SpringMVC_Mess_Management_System.git</code>
     <br>
-    > Select <strong>master</strong> branch > Finish
+    <strong>Next step:</strong> Select <strong>master</strong> branch <strong>Next step:</strong> Finish
   </li>
   <li>Update database config in <code>src/main/java/org.mvcproject.config</code></li>
-  <li>Right-click project > Run As > Maven Build > Goals: <code>clean install</code> > Run</li>
+  <li>Right-click project <strong>Next step:</strong> Run As <strong>Next step:</strong> Maven Build <strong>Next step:</strong> In the Goals field enter: <code>clean install</code> <strong>Next step:</strong> Run</li>
   <li>Update <code>pom.xml</code> dependencies if required</li>
-  <li>Fix any library errors via Build Path > Configure Build Path</li>
+  <li>Fix any library errors <strong>Next step:</strong> Build Path <strong>Next step:</strong> Configure Build Path</li>
   <li>Configure Tomcat v10.0.1 if not already done</li>
   <li>Run project on server and open <code>http://localhost:8080/onlinebookstore/</code></li>
   <li>Register as user (admin/worker) to start using the application</li>
 </ol>
+
 
 <h2>❓ FAQ</h2>
 
